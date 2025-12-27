@@ -16,12 +16,14 @@ from panda3d.core import (
     GeomVertexFormat,
     GeomVertexWriter,
     NodePath,
-    OnscreenText,
     TextNode,
     Vec3,
 )
+
 from direct.showbase.ShowBase import ShowBase
 from direct.task import Task
+from direct.gui.OnscreenText import OnscreenText
+
 
 
 CONFIG = {
